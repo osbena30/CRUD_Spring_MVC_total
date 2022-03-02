@@ -129,6 +129,19 @@ CREATE TABLE `proveedor` (
   `telefono` varchar(18) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+CREATE TABLE VENTA(
+	Cod_venta int(11) primary key not null auto_increment,
+	id_cliente int(11) not null,
+	fecha_venta date not null,
+	cod_producto int(11) not null
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+insert into venta 
+(id_cliente,fecha_venta,cod_producto)
+values
+(1,'2021-01-23',1),
+(2,'2021-01-24',2);
+
 --
 -- Volcado de datos para la tabla `proveedor`
 --

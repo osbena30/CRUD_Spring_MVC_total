@@ -22,7 +22,7 @@
                     <li><a href="formCliente.htm">Cliente</a></li>
                     <li><a href="#">Proveedores</a></li>
                     <li><a href="#">Productos</a></li>
-                    <li><a href="#">&nbsp;</a></li>
+                    <li><a href="formVenta.htm">Ventas</a></li>
                     <li><a class="active" href="#">About</a></li>
                 </ul>
             </nav>    

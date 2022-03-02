@@ -29,6 +29,8 @@
                 <prop key="formConsultarClienteXId.htm">controller</prop>
                 <prop key="listarClientes.htm">controller</prop>
                 <prop key="frmClientesXTelefono.htm">controller</prop>
+                <prop key="formVenta.htm">ventaController</prop>
+                <prop key="formRegistrarVentas.htm">ventaController</prop>
             </props>
         </property>
     </bean>
@@ -45,4 +47,5 @@
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
     <bean name="controller" class="controller.homeController" />
+    <bean name="ventaController" class="controller.ventaController" />
 </beans>

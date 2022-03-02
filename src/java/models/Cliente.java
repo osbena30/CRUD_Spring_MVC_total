@@ -13,6 +13,11 @@ public class Cliente {
         return salario;
     }
 
+    public Cliente(int id, String nombre) {
+        this.id = id;
+        this.nombre = nombre;
+    }
+
     public Cliente(int id, String nombre, String direccion, String correo, String telefono, double salario) {
         this.id = id;
         this.nombre = nombre;

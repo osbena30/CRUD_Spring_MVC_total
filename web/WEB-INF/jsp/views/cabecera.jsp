@@ -27,8 +27,7 @@
                             <li><a href="formConsultarClienteXId.htm">Consultar x salario</a></li>
                             <li><a href="frmClientesXTelefono.htm">Consultar x Telefono</a></li>
                         </ul>
-                    </li>
-                    
+                    </li>         
                     <li><a class="active" href="#">About</a></li>
                 </ul>
             </nav>            

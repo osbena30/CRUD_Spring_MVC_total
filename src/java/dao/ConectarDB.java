@@ -12,7 +12,7 @@ public class ConectarDB {
         DriverManagerDataSource datasource = new DriverManagerDataSource();
         try{
         datasource.setDriverClassName("com.mysql.jdbc.Driver");
-        datasource.setUrl("jdbc:mysql://localhost:3306/prueba");
+        datasource.setUrl("jdbc:mysql://localhost:3306/northwind");
         datasource.setUsername("root");
         datasource.setPassword("");
         }catch(Exception e){
